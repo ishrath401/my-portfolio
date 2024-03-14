@@ -46,3 +46,22 @@
   height: 10vh;
   width: 10vw;
 }
+
+.button{
+  border: 0px;
+  background: #020118;
+  color: white;
+  font-size: medium;
+  height: 5vh;
+  width: 12vw;
+  align-items: center;
+}
+
+.button:hover{
+  animation: neon 2s infinite alternate;
+}
+
+.buttonName{
+  margin: 0;
+  padding: 0;
+}
