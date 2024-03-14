@@ -1,0 +1,37 @@
+.navbar {
+  width: 100%;
+  background-color: #020118;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #9c9c9c, 0 0 10px #9c9c9c, 0 0 15px #9c9c9c,
+      0 0 20px #020118, 0 0 35px #020118, 0 0 40px #020118, 0 0 50px #020118;
+  }
+  to {
+    text-shadow: 0 0 10px #9c9c9c, 0 0 20px #9c9c9c, 0 0 30px #9c9c9c,
+      0 0 40px #020118, 0 0 70px #020118, 0 0 80px #020118, 0 0 100px #020118;
+  }
+}
+
+.name {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.name:hover {
+  animation: neon 2s infinite alternate;
+}
+
+.resume {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.resume:hover {
+  animation: neon 2s infinite alternate;
+}

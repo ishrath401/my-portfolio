@@ -1,0 +1,48 @@
+.resume-page {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.download-links{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box:hover {
+  animation: neon 2s infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #9c9c9c, 0 0 10px #9c9c9c, 0 0 15px #9c9c9c,
+      0 0 20px #020118, 0 0 35px #020118, 0 0 40px #020118, 0 0 50px #020118;
+  }
+  to {
+    text-shadow: 0 0 10px #9c9c9c, 0 0 20px #9c9c9c, 0 0 30px #9c9c9c,
+      0 0 40px #020118, 0 0 70px #020118, 0 0 80px #020118, 0 0 100px #020118;
+  }
+}
+
+.box {
+  height: 25vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-resume {
+  height: 10vh;
+  width: 10vw;
+}
