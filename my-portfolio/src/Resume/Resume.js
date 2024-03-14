@@ -4,8 +4,7 @@ import "./Resume.css";
 import { Link } from "react-router-dom";
 
 const Resume = () => {
-
-  const resume_pdf = 'http://localhost:3000/Assets/Mohammed_Ishrath.pdf';
+  const resume_pdf = "http://localhost:3000/Assets/Mohammed_Ishrath.pdf";
 
   const downloadFile = (url) => {
     const pdfUrl = resume_pdf;
@@ -15,8 +14,8 @@ const Resume = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }
-  
+  };
+
   return (
     <div className="resume-page">
       <div className="download-links">
@@ -24,13 +23,17 @@ const Resume = () => {
           <Link className="text">
             <MdDownload className="download-resume" />
           </Link>
-          <button className="button" onClick={() => downloadFile(resume_pdf)}>Download CV</button>
+          <button className="button" onClick={() => downloadFile(resume_pdf)}>
+            <p className="buttonName">Download Resume</p>
+          </button>
         </div>
         <div className="box">
           <Link className="text">
             <MdDownload className="download-resume" />
           </Link>
-          <button className="button" >Download CV</button>
+          <button className="button">
+            <p className="buttonName">Download CV</p>
+          </button>
         </div>
       </div>
     </div>
