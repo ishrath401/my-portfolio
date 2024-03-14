@@ -7,8 +7,14 @@
 .homeBody{
   height: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+}
+
+.photoDescription{
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -21,4 +27,26 @@
 
 .icon{
   padding:5px;
+}
+
+@keyframes pop-up {
+  0%{
+    transform: scale(1);
+  }
+
+  100%{
+    transform: scale(1.25);
+  }
+}
+
+.github:hover{
+  animation: pop-up 1s forwards;
+}
+
+.email:hover{
+  animation: pop-up 1s forwards;
+}
+
+.linkedin:hover{
+  animation: pop-up 1s forwards;
 }

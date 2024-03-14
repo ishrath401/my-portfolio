@@ -3,6 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import LandingPage from "./LandingPage/LandingPage";
 import Resume from "./Resume/Resume";
+import "./App.css";
+import { Tooltip } from "@mui/material";
+import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
+
 
 const App = () => {
   return (
@@ -13,6 +17,9 @@ const App = () => {
           <Route path="resume" element={<Resume />} />
         </Route>
       </Routes>
+      <Tooltip title="Chat with developer">
+        <ChatBubbleIcon className="chatIcon" />
+      </Tooltip>
     </div>
   );
 };
