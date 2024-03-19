@@ -1,15 +1,23 @@
 .myphoto{
-    height: 250px;
-    width: 250px;
+    height: 45vh;
+    width: 20vw;
     border-radius: 50%;
 }
 
 .homeBody{
-  height: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.photo{
+  width: 30%;
+}
+
+.description{
+  width: 70%;
 }
 
 .photoDescription{
@@ -37,6 +45,14 @@
   100%{
     transform: scale(1.25);
   }
+}
+
+.social-media{
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .github:hover{

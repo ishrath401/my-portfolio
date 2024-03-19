@@ -8,7 +8,7 @@ const navbar = () => {
       <div className="navbar">
         <p><Link className="name" to='/'>Mohammed Ishrath</Link></p>
         <p>Projects</p>
-        <p>Experience</p>
+        <p><Link className="experience" to='/experience'>Experience</Link></p>
         <p><Link className="resume" to='/resume'>Resume</Link></p>
       </div>
     </>

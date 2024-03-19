@@ -41,7 +41,7 @@ const LandingPage = () => {
       className="homeBody"
     >
       <div className="photoDescription">
-        <div>
+        <div className="photo">
           <m.img
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -51,7 +51,7 @@ const LandingPage = () => {
             alt="Mohammed Ishrath"
           ></m.img>
         </div>
-        <div>
+        <div className="description">
           <m.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

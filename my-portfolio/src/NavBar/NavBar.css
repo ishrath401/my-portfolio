@@ -35,3 +35,12 @@
 .resume:hover {
   animation: neon 2s infinite alternate;
 }
+
+.experience {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.experience:hover {
+  animation: neon 2s infinite alternate;
+}

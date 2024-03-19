@@ -6,6 +6,7 @@ import Resume from "./Resume/Resume";
 import "./App.css";
 import { Tooltip } from "@mui/material";
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
+import Experience from "./Experience/Experience";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route path="" element={<LandingPage />} />
           <Route path="resume" element={<Resume />} />
+          <Route path="experience" element={<Experience />} />
         </Route>
       </Routes>
       <Tooltip title="Chat with developer">

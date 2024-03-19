@@ -6,8 +6,8 @@ import Navbar from "../NavBar/NavBar";
 const Layout = () => {
     return (
         <div className="Layout">
-          <Navbar />
-          <Outlet />
+          <Navbar className='layout-navbar' />
+          <Outlet className='portfolio-body' />
         </div>
       );
 }
